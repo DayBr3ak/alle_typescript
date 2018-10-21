@@ -1,0 +1,12 @@
+{
+  "verbose": true,
+  "ignoreRoot": [".git"],
+  "watch": ["./packages"],
+  "ignore": [
+    "./node_modules/"
+  ],
+  "execMap": {
+    "js": "tsc -b packages/node_modules && node"
+  },
+  "ext": "ts,js,json"
+}
